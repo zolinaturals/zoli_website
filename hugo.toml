@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+# Contact Information
+#mobile = "00386 41 217 023"
+#email = "barbara.jeras@gmail.com"
+#location = "Gradisce, Lukovica"
