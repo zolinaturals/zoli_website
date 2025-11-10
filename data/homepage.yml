@@ -4,7 +4,7 @@ banner:
   title : "Visoko kvalitetna naravna kozmetika in zelisca."
   content : "Smo druzinsko podjetje z dolgo tradicijo, ki prozivaja vrhunske kreme in prsila. 
     Vse je narejeno na naravni osnovi in zacinjeno z raznovrstnimi zelisci."
-  image : "images/banner.jpg"
+  image : "images/banner.png"
   # button
   button:
     enable : true
@@ -24,7 +24,7 @@ about:
     Vse delo opravljamo z lastnimi rokami pri tem pa se strogo drzimo 
     principov BIOTOP+ ter DQP. Tudi GMP (Grem Mal Pocivat) nam ni tuj.
     "
-  image : "images/about.png"
+  image : "images/about.jpg"
 
 
 ###################### Call to action ########################
