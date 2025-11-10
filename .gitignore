@@ -1,0 +1,28 @@
+# Build output
+/public/
+/resources/_gen/
+
+# Cache and build lock
+.hugo_build.lock
+hugo_stats.json
+
+# Node / npm (some Hugo themes use npm for SCSS/JS)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# Editor configs
+.vscode/
+.idea/
+
+# Hugo Modules (if you use them)
+/go.sum
+
