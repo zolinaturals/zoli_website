@@ -15,7 +15,7 @@ Bold	**bold text**
 Italic	*italicized text*
 Blockquote	> blockquote
 Ordered List:	
-1. First item
+*1. First item*
 2. Second item
 3. Third item
    
@@ -23,7 +23,7 @@ Unordered List
 - First item
 - Second item
 - Third item
-  
+  afe a e
 Code	`code`
 
 Horizontal Rule	---
