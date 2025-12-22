@@ -1,4 +1,16 @@
-- id: important_link
-  translation: Important Links
-- id: connect_us
-  translation: Connect With Us
+important_link:
+  other: "Important Links"
+connect_us:
+  other: "Connect With Us"
+short_product_description:
+  other: "Short Description"
+contact_email:
+  other: "Contact us"
+your_name_form:
+  other: "Your Name"
+your_email_form:
+  other: "Your Email"
+your_message_form:
+  other: "Your Message"
+send_message_button:
+  other: "Send Message"

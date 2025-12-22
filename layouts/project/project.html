@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<!-- Page Header (Hargo standard) -->
+{{ partial "page-title.html" . }}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+
+            <!-- Main Content -->
+            <div class="col-lg-8">
+
+                <!-- Fixed Project Description -->
+                <div class="content mb-5">
+                    {{ .Content }}
+                </div>
+
+                <!-- Project Articles -->
+                <div class="project-articles">
+                    <h3 class="mb-4">Recent Articles</h3>
+
+                    {{ range .Pages.ByDate.Reverse }}
+                    <article class="mb-4 pb-4 border-bottom">
+
+                        <h4>
+                            <a href="{{ .RelPermalink }}" class="text-dark">
+                                {{ .Title }}
+                            </a>
+                        </h4>
+
+                        {{ partial "post-meta.html" . }}
+
+                        <p>
+                            {{ .Summary }}
+                        </p>
+
+                    </article>
+                    {{ end }}
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+{{ end }}

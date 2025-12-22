@@ -1,146 +1,147 @@
 ############################ banner ##########################
 banner:
-  enable : true
-  title : "Visoko kvalitetna naravna kozmetika in zelisca."
-  content : "Smo druzinsko podjetje z dolgo tradicijo, ki prozivaja vrhunske kreme in prsila. 
-    Vse je narejeno na naravni osnovi in zacinjeno z raznovrstnimi zelisci."
-  image : "images/banner.png"
+  enable: true
+  title: "ZoLi: Kjer znanost sreča naravo."
+  content:
+    "Narava s poklicem. Zgodba, ki jo pozna vsaka kapljica. V svetu industrijsko izdelane
+    kozmetike smo se navadili na popolnost brez pristnosti — na teksture, ki obljubljajo več,
+    kot resnično dajo. A vaše telo si zasluži več. Resnično nego, ki spoštuje njeno naravo."
+  image: "images/banner.png"
   # button
   button:
-    enable : true
-    label : "Vsi produkti"
-    link : "products/"
+    enable: true
+    label: "Produkti"
+    link: "products/"
   # demo video
   video:
-    enable : true
-    videoURL : "https://youtu.be/evlTDfam5X8?si=nMcq0HTDN9pVxGk5"
+    enable: true
+    videoURL: "https://youtu.be/evlTDfam5X8?si=nMcq0HTDN9pVxGk5"
 
 ########################## About ##############################
 about:
-  enable : true
-  title : "Vse o nasih produktih"
-  content : "Proizvedeno z ljubeznijo v skrbno ociscenih prostorih in visoko 
-    stopnjo sledljivosti podatkov.
-    Vse delo opravljamo z lastnimi rokami pri tem pa se strogo drzimo 
-    principov BIOTOP+ ter DQP. Tudi GMP (Grem Mal Pocivat) nam ni tuj.
-    "
-  image : "images/about.jpg"
-
+  enable: true
+  title: "Od laboratorija do domače kopalnice"
+  content:
+    "Ona skrbi, da vsak izdelek ne navduši le s svojo teksturo in vonjem, temveč tudi z
+    varnostjo, učinkovitostjo in znanstveno korektnostjo. On je mojster ravnovesja.
+    Natančno izbira naravna olja, masla in izvlečke ter jih združuje v popolno sinergijo.
+    Skupaj ustvarjava formulacije, ki so čiste, preproste in presenetljivo učinkovite.
+    Vsak kos mila, vsaka steklenička šampona je rezultat te redke povezanosti — moči narave in
+    natančnosti znanosti."
+  image: "images/about.jpg"
 
 ###################### Call to action ########################
 cta:
-  enable : true
-  title : "Kupi enega dobis dva"
-  content : "Omejena ponudba. Na voljo le v sezoni sivke (celo leto). Kdor kupi hitro dvakrat kupi!!"
-  image : "images/cta.png"
-  overlayImage : "images/cta-overlay.png"
+  enable: true
+  title: "Kupi enega dobis dva"
+  content: "Omejena ponudba. Na voljo le v sezoni sivke (celo leto). Kdor kupi hitro dvakrat kupi!!"
+  image: "images/cta.png"
+  overlayImage: "images/cta-overlay.png"
   button:
-    label : "Vsi produkti"
-    link : "products/"
+    label: "Vsi produkti"
+    link: "products/"
 
 ######################## raw material #######################
 material:
-  enable : true
-  title : "Sestavine v nasih produktih"
-  subtitle : "Nasi produkti so izdelani le iz najboljsih sestavin. Pri izbiri
-    smo nadvse natancni iz izbircni. Ce ni domace ali vsaj proizvedeno 
+  enable: true
+  title: "Sestavine v naših produktih"
+  subtitle: "Nasi produkti so izdelani le iz najboljših sestavin. Pri izbiri
+    smo nadvse natančni iz izbirčni. Ce ni domače ali vsaj proizvedeno
     po visokih bio standardih za nas preslabo. Lahko ste brez skrbi Narava je
     nase vodilo."
   materialItem:
     # material item loop
-    - title : "Marihuana Seeds"
-      image : "images/material/material-1.png"
-      content : "Semena marihuane blagodejno vplavajo na kalitev. Nesponlo 
-        razmnozevanje pri raslitnah dokazano povecuje ambicioznost pri ljudeh,
-        ki taksna semena uzivajo. Mnogi strokovnjaki, tudi Herta, o tem veliko
+    - title: "Marihuana Seeds"
+      image: "images/material/material-1.png"
+      content: "Semena marihuane blagodejno vplavajo na kalitev. Nespolno
+        razmnoževanje pri rastlinah dokazano povecuje ambicioznost pri ljudeh,
+        ki taksna semena uživajo. Mnogi strokovnjaki, tudi Herta, o tem veliko
         govorijo."
-      
+
     # material item loop
-    - title : "Aloe Vera"
-      image : "images/material/material-2.png"
-      content : "Te je picik komar??? Ni tezav. Aloe Vera priskoci na pomoc.
-        Gel pridobljen iz listov aloevera ima neverjetne hladilne ucinke. Na 
+    - title: "Aloe Vera"
+      image: "images/material/material-2.png"
+      content: "Te je picik komar??? Ni tezav. Aloe Vera priskoci na pomoc.
+        Gel pridobljen iz listov aloevera ima neverjetne hladilne ucinke. Na
         IJS so celo pokazali, da so primerljivi z delovanjem tekocega dusika."
-      
+
     # material item loop
-    - title : "Te-tri olje"
-      image : "images/material/material-3.png"
-      content : "Brez besed, to je cudezno zdravilo. Malo namazi na vrat in takoj
+    - title: "Te-tri olje"
+      image: "images/material/material-3.png"
+      content: "Brez besed, to je cudezno zdravilo. Malo namazi na vrat in takoj
         si zdrav."
-      
+
     # material item loop
-    - title : "Zdrava sol"
-      image : "images/material/material-4.png"
-      content : "Sol iz himalajskih visokogorskih rudnikov, ki uspeva v pogojih
+    - title: "Zdrava sol"
+      image: "images/material/material-4.png"
+      content: "Sol iz himalajskih visokogorskih rudnikov, ki uspeva v pogojih
         nizke vsebnosti kisika, vsebuje neprecenljive minerala. Ker pa za nase
         produkte ni dovolj popolnost, smo se odlocili za se izboljsano verzijo
         iz Tuzle.... zdravje zagotovljeno, samo odprite denarnico."
 
 ########################### Advantage #########################
 advantage:
-  enable : true
-  title : "Prednosti uporaben <br> nasih produktov"
-  subtitle : "V primerjavi z ostalo ponudbo na trgu nas zelo preprosto 
+  enable: true
+  title: "Prednosti uporaben <br> nasih produktov"
+  subtitle: "V primerjavi z ostalo ponudbo na trgu nas zelo preprosto
     opisujeta dve besedi: <br> Boljsi smo!!!!"
-  image : "images/advantage.png"
+  image: "images/advantage.png"
   advantageList:
     # advantage list loop
-    - listItem : "Izjemno nizka cena"
-    - listItem : "Naravne sestavine"
-    - listItem : "Blagodejen vpliv na rast celic"
-    - listItem : "Blazi simptome raka"
-    - listItem : "Blesceca koza"
-    - listItem : "Boljsi spanec."
-
+    - listItem: "Izjemno nizka cena"
+    - listItem: "Naravne sestavine"
+    - listItem: "Blagodejen vpliv na rast celic"
+    - listItem: "Blazi simptome raka"
+    - listItem: "Blesceca koza"
+    - listItem: "Boljsi spanec."
 
 ######################## Promo Video ##########################
 video:
-  enable : true
-  title : "Kako lahko uporabljate nase produkte?"
-  content : "Navodila: poklici Barbi, izberi veliko stevilo razlicnih produktov
-    zmen se za dobro ceno, pocakaj postarja da pripelje, odpri in namazi. 
+  enable: true
+  title: "Kako lahko uporabljate nase produkte?"
+  content: "Navodila: poklici Barbi, izberi veliko stevilo razlicnih produktov
+    zmen se za dobro ceno, pocakaj postarja da pripelje, odpri in namazi.
     Simpl ko pasulj, se ti ne zdi?"
-  videoThumb : "images/video-thumb.jpg"
-  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
-
+  videoThumb: "images/video-thumb.jpg"
+  videoURL: "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 ######################## Products #############################
 products:
-  enable : true
-  title : "Seznam Produktov"
+  enable: true
+  title: "Seznam Produktov"
   # product item comes from "content/products"
-
 
 ########################## Testimonial ########################
 testimonial:
-  enable : true
-  title : "Kaj pravijo drugi o nas in nasih proizvodih?<br>Prepricajte se sami!!!"
+  enable: true
+  title: "Kaj pravijo drugi o nas in nasih proizvodih?<br>Prepricajte se sami!!!"
   testimonialItem:
     # testimonial item loop
-    - name : "Zdravko Dren"
-      image : "images/clients/client-1.jpg" # size 100px*100px
-      designation : "CEO, Sam svoj sef svojga stola na svojem vrtu"
-      content : "Sem Zdravko Dren.<br>Odkar sm po nizki ceni kupil kreme od<br>sosede, sem tudi zdrav ko dren."
-      rating : "five" # rating star, one to five
-      
+    - name: "Zdravko Dren"
+      image: "images/clients/client-1.jpg" # size 100px*100px
+      designation: "CEO, Sam svoj sef svojga stola na svojem vrtu"
+      content: "Sem Zdravko Dren.<br>Odkar sm po nizki ceni kupil kreme od<br>sosede, sem tudi zdrav ko dren."
+      rating: "five" # rating star, one to five
+
     # testimonial item loop
-    - name : "Ziva Groza"
-      image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "Upraviteljica debatnih krozkov - dez bo!"
-      content : "Enkrat sem pobrala eno milo na cesti.<br>Mislim, da je blo od sosede.<br>Pes ga je pojedu, pa bruhu, zanic."
-      rating : "one" # rating star, one to five
-      
+    - name: "Ziva Groza"
+      # TODO (Lj): odstrani sliko iz theme.
+      image: "images/clients/client-2.jpg" # size 100px*100px
+      designation: "Upraviteljica debatnih krozkov - dez bo!"
+      content: "Enkrat sem pobrala eno milo na cesti.<br>Mislim, da je blo od sosede.<br>Pes ga je pojedu, pa bruhu, zanic."
+      rating: "one" # rating star, one to five
+
     # testimonial item loop
-    - name : "Niko Lzbolu"
-      image : "images/clients/client-3.jpg" # size 100px*100px
-      designation : "CEO, med korono ustanovitelj medobcinskega programa: 
+    - name: "Niko Lzbolu"
+      image: "images/clients/client-3.jpg" # size 100px*100px
+      designation: "CEO, med korono ustanovitelj medobcinskega programa:
         gremo v dugo obcino."
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "five" # rating star, one to five
-      
+      content: "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating: "five" # rating star, one to five
+
     # testimonial item loop
-    - name : "Meta Lecriza"
-      image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "Profesionalna udelezenka porok"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "four" # rating star, one to five
+    - name: "Meta Lecriza"
+      image: "images/clients/client-2.jpg" # size 100px*100px
+      designation: "Profesionalna udelezenka porok"
+      content: "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating: "four" # rating star, one to five

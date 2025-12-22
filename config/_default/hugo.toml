@@ -1,23 +1,58 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/hargo/site/"
-languageCode = "en"
+#
+baseURL = "https://zolinaturals.github.io/zoli_website/"
 title = "ZOLI website"
 theme = "hargo-hugo"
-# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+
+[frontmatter]
+format = "yaml"
+
+# Default time zone for time stamps; use any valid tz database name:
+#   https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Europe/Ljubljana"
 # post pagination
-pagination.pagerSize = 10 # see https://gohugo.io/extras/pagination/
+# see https://gohugo.io/extras/pagination/
+pagination.pagerSize = 10
 # post excerpt
-summaryLength = 20 # see https://gohugo.io/content-management/excerpts/
+# see https://gohugo.io/content-management/excerpts/
+summaryLength = 20
 # google analytics
-googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+# example: UA-123456-78, for more info,
+# read the article https://support.google.com/analytics/answer/1008080?hl=en
+googleAnalytics = "UA-123456-78"
 # disqus short name
-disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
-# disable language
-disableLanguages = [
-] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
-hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+# we use disqus to show comments in blog posts.
+# To install disqus please follow this tutorial:
+#  https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+disqusShortname = "themefisher-template"
 timeout = "500s"
+
+######################### Language related settings ########################
+# Default language settings. If languageCode is missing Hugo had issues.
+languageCode = "sl"
+defaultContentLanguage = "sl"
+defaultContentLanguageInSubdir = false
+
+# Not optional. If you have more than one language, you must configure them under the
+# [languages] section. Enables multilingual mode in Hugo.
+[languages]
+[languages.sl]
+languageName = "Slovenščina"
+languageCode = "sl"
+weight = 1
+
+[languages.en]
+languageName = "English"
+languageCode = "en"
+weight = 2
+
+# Disable language.
+# example: ["fr"] for disable french language.
+# see https://gohugo.io/content-management/multilingual/
+disableLanguages = []
+#  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content.
+# see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+hasCJKLanguage = false
 
 ############################# Build ##############################
 [build]
@@ -84,7 +119,6 @@ link = "plugins/slick/slick.min.js"
 link = "plugins/google-map/gmap.js"
 
 
-
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
@@ -100,9 +134,9 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalyticsID = "" # Your ID
 # Contact Information
-mobile = "00386 xx xxx xxx"
-email = "barbara.jeras@gmail.com"
-location = "Gradisce, Lukovica"
+mobile = "+386 40 990 705"
+email = "barbi.jeras@gmail.com"
+location = "Gradišče pri Lukovici 5b, 1225 Lukovica"
 # copyright
 # copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 copyright = "| Copyright &copy; 2025 Barbi All Rights Reserved |"

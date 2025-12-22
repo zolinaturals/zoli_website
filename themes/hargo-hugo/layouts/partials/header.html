@@ -18,7 +18,8 @@
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
               {{ .Name }}
             </a>
             <div class="dropdown-menu">
@@ -35,7 +36,25 @@
           {{ end }}
         </ul>
       </div>
-      <button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>
+      {{/* <button class="cart snipcart-summary">
+        <a href="" class="snipcart-checkout text-dark">
+          <i class="ti-shopping-cart"></i>
+          <span class="badge badge-primary snipcart-items-count"></span>
+        </a>
+      </button> */}}
+      {{ if .IsTranslated }}
+      <ul class="language-switcher">
+        {{ range .Translations }}
+        <li>
+          <a href="{{ .RelPermalink }}">
+            {{ .Language.LanguageName }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+
+
     </nav>
   </div>
 </header>

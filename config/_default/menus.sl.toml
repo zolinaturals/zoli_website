@@ -1,12 +1,12 @@
 
 ############################## navigation ##############################
 [[main]]
-name = "Project"
+name = "Projekt"
 URL = "project/"
 weight = 1
 
 [[main]]
-name = "Products"
+name = "Produkti"
 URL = "products/"
 weight = 2
 
@@ -21,13 +21,13 @@ URL = "faq/"
 weight = 4
 
 [[main]]
-name = "Contact"
+name = "Kontakt"
 URL = "contact/"
 weight = 5
 
 ############# footer menu #############
 [[footer]]
-name = "Products"
+name = "Produkti"
 URL = "products/"
 weight = 1
 
@@ -42,11 +42,11 @@ URL = "faq/"
 weight = 3
 
 [[footer]]
-name = "Terms & Conditions"
+name = "Terms & Conditions (ne znam prevest)"
 URL = "terms-conditions/"
 weight = 4
 
 [[footer]]
-name = "Contact"
+name = "Kontakt"
 URL = "contact/"
 weight = 5
