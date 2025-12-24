@@ -1,23 +1,27 @@
 ############################# contact info ################
 contact:
-  enable : true
+  enable: true
   # office
   office:
-    title : "Central Office"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+    title: "Osrednja pisarna & laboratorij"
+    content:
+      "Naša osrednja pisarna in laboratorij sta srce našega ustvarjanja. Tukaj razvijamo in
+      ročno izdelujemo naravne izdelke za nego telesa – trda mila, kopalne kroglice, šampone
+      in druge kozmetične izdelke. Vse nastaja v majhnem domačem laboratoriju, kjer združujemo
+      znanje, naravne sestavine in ljubezen do trajnostne proizvodnje."
     # other information comes from "config.toml"
 
   # opennig hour
   opennigHour:
-    title : "Opening Hours"
+    title: "Odpiralni čas"
     dayTimeList:
-      - dayTime : "Monday: 9:00 – 19:00"
-      - dayTime : "Tuesday: 9:00 – 19:00"
-      - dayTime : "Wednesday: 9:00 – 19:00"
-      - dayTime : "Thursday: 9:00 – 19:00"
-      - dayTime : "Friday: 9:00 – 19:00"
-      - dayTime : "Saturday: 9:00 – 19:00"
-      - dayTime : "sunday: 9:00 – 19:00"
+      - dayTime: "Ponedeljek: 9:00 – 19:00"
+      - dayTime: "Torek: 9:00 – 19:00"
+      - dayTime: "Sreda: 9:00 – 19:00"
+      - dayTime: "Četrtek: 9:00 – 19:00"
+      - dayTime: "Petek: 9:00 – 19:00"
+      - dayTime: "Sobota: 9:00 – 19:00"
+      - dayTime: "Nedelja: 9:00 – 19:00"
 
 ####################### google map ########################
 map:

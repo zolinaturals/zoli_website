@@ -33,7 +33,7 @@
   {{/* {{ "<!-- Custom CSS -->" | safeHTML }}
   {{ $custom := resources.Get "css/custom.css" | resources.Minify{{ $custom := resources.Get "css/custom.css" |
   resources.Minify | resources.Fingerprint }} */}}
-  <link rel="stylesheet" href="/css/custom.css" />
+  <link rel="stylesheet" , href="{{ " css/custom.css" | relURL }}" />
 
 
   {{ "<!-- Favicon -->" | safeHTML }}
