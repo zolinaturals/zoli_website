@@ -16,7 +16,7 @@ URL = "blog/"
 weight = 3
 
 [[main]]
-name = "FAQ"
+name = "Pogosta vprašanja"
 URL = "faq/"
 weight = 4
 
@@ -42,7 +42,7 @@ URL = "faq/"
 weight = 3
 
 [[footer]]
-name = "Terms & Conditions (ne znam prevest)"
+name = "Terms & Conditions (Pogoji & zahteve)"
 URL = "terms-conditions/"
 weight = 4
 

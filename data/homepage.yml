@@ -101,12 +101,13 @@ advantage:
 ######################## Promo Video ##########################
 video:
   enable: true
-  title: "Kako lahko uporabljate nase produkte?"
-  content: "Navodila: poklici Barbi, izberi veliko stevilo razlicnih produktov
-    zmen se za dobro ceno, pocakaj postarja da pripelje, odpri in namazi.
-    Simpl ko pasulj, se ti ne zdi?"
+  title: "Kako lahko uporabljate naše produkte?"
+  content: "Navodila: poklici Barbi, izberi veliko število različnih produktov
+    zmen se za dobro ceno, počakaj poštarja da pripelje, odpri in namazi.
+    Simpl ko pasulj, se ti ne zdi?<br>
+    **Levo najdete prijeten video za sprostitev.**"
   videoThumb: "images/video-thumb.jpg"
-  videoURL: "https://www.youtube.com/embed/wf4F2-9UXUo"
+  videoURL: "https://www.youtube.com/embed/LJk7bvwJdkM?si=koqQ5NI7hMuwgtWj"
 
 ######################## Products #############################
 products:

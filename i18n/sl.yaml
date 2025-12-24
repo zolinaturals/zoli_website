@@ -16,3 +16,5 @@ send_message_button:
   other: "Pošlji sporočilo"
 project_events:
   other: "Nedavni dogodki"
+faq_ask_your_question:
+  other: "Zastavite nam vprašanje"

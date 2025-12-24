@@ -16,3 +16,5 @@ send_message_button:
   other: "Send Message"
 project_events:
   other: "Recent Events"
+faq_ask_your_question:
+  other: "Ask Your Question"
