@@ -1,0 +1,2 @@
+# This was the only way I get the slovene language precedence over 'en'.
+DefaultContentLanguage = "sl"

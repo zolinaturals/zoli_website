@@ -30,7 +30,7 @@ timeout = "500s"
 ######################### Language related settings ########################
 # Default language settings. If languageCode is missing Hugo had issues.
 languageCode = "sl"
-defaultContentLanguage = "sl"
+DefaultContentLanguage = "sl"
 defaultContentLanguageInSubdir = false
 
 # Not optional. If you have more than one language, you must configure them under the
@@ -39,12 +39,12 @@ defaultContentLanguageInSubdir = false
 [languages.sl]
 languageName = "Slovenščina"
 languageCode = "sl"
-weight = 2
+weight = 1
 
 [languages.en]
 languageName = "English"
 languageCode = "en"
-weight = 1
+weight = 2
 
 # Disable language.
 # example: ["fr"] for disable french language.
