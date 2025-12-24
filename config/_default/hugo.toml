@@ -39,12 +39,12 @@ defaultContentLanguageInSubdir = false
 [languages.sl]
 languageName = "Slovenščina"
 languageCode = "sl"
-weight = 1
+weight = 2
 
 [languages.en]
 languageName = "English"
 languageCode = "en"
-weight = 2
+weight = 1
 
 # Disable language.
 # example: ["fr"] for disable french language.

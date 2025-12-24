@@ -2,19 +2,6 @@
 
 {{ partial "page-title.html" . }}
 
-<pre>
-Kind: {{ .Kind }}
-Lang: {{ .Language.Lang }}
-File: {{ .File.Path }}
-
-Params:
-{{ printf "%#v" .Params }}
-
-Images Param:
-{{ warnf "IMAGES: %#v" .Params.Images }}
-
-</pre>
-
 <section class="section pt-0">
   <div class="container">
     <div class="row">
@@ -34,20 +21,21 @@ Images Param:
         {{ if site.Params.rating.enable }}
         <div class="rw-ui-container"></div>
         {{ end }}
+        {{ if .Params.ShowPrice }}
         <div class="my-4">
           {{ if .Params.PriceBefore }}
           <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
           {{ end }}
           <span class="lead text-primary font-weight-medium">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
         </div>
-        <h5>{{ i18n "short_product_description" }}</h5>
-        <p>{{ .Params.ShortDescription | markdownify }}</p>
-        {{/* <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
-          data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}" {{
-          end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}"
-          data-item-description="{{ .Description }}">
-          Add to cart
-        </button> */}}
+        <{{ end }} <h5>{{ i18n "short_product_description" }}</h5>
+          <p>{{ .Params.ShortDescription | markdownify }}</p>
+          {{/* <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
+            data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}" {{
+            end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}"
+            data-item-description="{{ .Description }}">
+            Add to cart
+          </button> */}}
       </div>
       <div class="col-12 mt-5">
         <ul class="nav nav-tabs border-bottom-0" id="myTab" role="tablist">

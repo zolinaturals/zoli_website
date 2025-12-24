@@ -17,24 +17,34 @@
 
                 <!-- Project Articles -->
                 <div class="project-articles">
-                    <h3 class="mb-4">Recent Articles</h3>
+                    <h3 class="mb-4">{{ i18n "project_events" }}</h3>
 
                     {{ range .Pages.ByDate.Reverse }}
-                    <article class="mb-4 pb-4 border-bottom">
+                    {{/* <article class="mb-4 pb-4 border-bottom"> */}}
 
-                        <h4>
+                        <li class="mb-2">
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            {{/* <a>{{ .Title }}</a> */}}
+                            — <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "02. Jan 2006"
+                                }}</time>
+                            {{/* {{ with (or {{ with (or .Params.author site.Params.author) }} · {{ . }}{{ end }} */}}
+
+                        </li>
+
+                        {{/* <h4>
                             <a href="{{ .RelPermalink }}" class="text-dark">
                                 {{ .Title }}
                             </a>
-                        </h4>
+                        </h4> */}}
 
-                        {{ partial "post-meta.html" . }}
+                        {{/* {{ partial "post-meta.html" . }} */}}
 
-                        <p>
+                        {{/* <p>
                             {{ .Summary }}
-                        </p>
+                        </p> */}}
 
-                    </article>
+                        {{/*
+                    </article> */}}
                     {{ end }}
 
                 </div>

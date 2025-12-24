@@ -14,3 +14,5 @@ your_message_form:
   other: "Your Message"
 send_message_button:
   other: "Send Message"
+project_events:
+  other: "Recent Events"

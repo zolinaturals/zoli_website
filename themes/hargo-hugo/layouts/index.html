@@ -33,9 +33,16 @@
         </div>
         {{ end }}
       </div>
-      <div class="col-lg-7 col-md-6 order-1 order-lg-2">
-        {{ partial "image.html" (dict "Src" .image "Alt" "image" "Class" "img-fluid") }}
-      </div>
+      {{/* <section class="home-about"> */}}
+        <div class="col-lg-7 col-md-6 order-1 order-lg-2 home-about">
+          {{ partial "image.html" (dict
+          "Src" .image.path
+          "Alt" "image"
+          "Class" "img-fluid"
+          ) }}
+        </div>
+        {{/*
+      </section> */}}
     </div>
   </div>
 </section>

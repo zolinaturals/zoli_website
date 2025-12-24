@@ -6,7 +6,10 @@ banner:
     "Narava s poklicem. Zgodba, ki jo pozna vsaka kapljica. V svetu industrijsko izdelane
     kozmetike smo se navadili na popolnost brez pristnosti — na teksture, ki obljubljajo več,
     kot resnično dajo. A vaše telo si zasluži več. Resnično nego, ki spoštuje njeno naravo."
-  image: "images/banner.png"
+  image:
+    path: "images/banner.png"
+    height_px: 320
+  # image: "images/banner.png"
   # button
   button:
     enable: true
@@ -14,7 +17,7 @@ banner:
     link: "products/"
   # demo video
   video:
-    enable: true
+    enable: false
     videoURL: "https://youtu.be/evlTDfam5X8?si=nMcq0HTDN9pVxGk5"
 
 ########################## About ##############################
@@ -28,22 +31,22 @@ about:
     Skupaj ustvarjava formulacije, ki so čiste, preproste in presenetljivo učinkovite.
     Vsak kos mila, vsaka steklenička šampona je rezultat te redke povezanosti — moči narave in
     natančnosti znanosti."
-  image: "images/about.jpg"
+  image: "images/from_lab_to_bathroom.jpg"
 
 ###################### Call to action ########################
 cta:
   enable: true
-  title: "Kupi enega dobis dva"
-  content: "Omejena ponudba. Na voljo le v sezoni sivke (celo leto). Kdor kupi hitro dvakrat kupi!!"
+  title: "Ljubezen, ki je zrasla iz znanosti"
+  content: "ZoLi se je rodila iz ljubezni do naravnega, do čistosti, in do znanosti."
   image: "images/cta.png"
   overlayImage: "images/cta-overlay.png"
   button:
-    label: "Vsi produkti"
+    label: "Poglej produkte"
     link: "products/"
 
 ######################## raw material #######################
 material:
-  enable: true
+  enable: false
   title: "Sestavine v naših produktih"
   subtitle: "Nasi produkti so izdelani le iz najboljših sestavin. Pri izbiri
     smo nadvse natančni iz izbirčni. Ce ni domače ali vsaj proizvedeno
@@ -82,18 +85,18 @@ material:
 ########################### Advantage #########################
 advantage:
   enable: true
-  title: "Prednosti uporaben <br> nasih produktov"
+  title: "Prednosti uporabe<br>naših produktov"
   subtitle: "V primerjavi z ostalo ponudbo na trgu nas zelo preprosto
-    opisujeta dve besedi: <br> Boljsi smo!!!!"
+    opisujeta dve besedi: <br> Boljši smo!!!!"
   image: "images/advantage.png"
   advantageList:
     # advantage list loop
     - listItem: "Izjemno nizka cena"
     - listItem: "Naravne sestavine"
     - listItem: "Blagodejen vpliv na rast celic"
-    - listItem: "Blazi simptome raka"
-    - listItem: "Blesceca koza"
-    - listItem: "Boljsi spanec."
+    - listItem: "Blaži simptome raka"
+    - listItem: "Bleščeča koza"
+    - listItem: "Boljši spanec."
 
 ######################## Promo Video ##########################
 video:
@@ -114,7 +117,7 @@ products:
 ########################## Testimonial ########################
 testimonial:
   enable: true
-  title: "Kaj pravijo drugi o nas in nasih proizvodih?<br>Prepricajte se sami!!!"
+  title: "Kaj pravijo drugi o nas in naših proizvodih?"
   testimonialItem:
     # testimonial item loop
     - name: "Zdravko Dren"
@@ -136,12 +139,12 @@ testimonial:
       image: "images/clients/client-3.jpg" # size 100px*100px
       designation: "CEO, med korono ustanovitelj medobcinskega programa:
         gremo v dugo obcino."
-      content: "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      content: "Ne maram Zdravkota. Prav da je korenine... sam js sem ga ze vidu bolanega."
       rating: "five" # rating star, one to five
 
     # testimonial item loop
     - name: "Meta Lecriza"
       image: "images/clients/client-2.jpg" # size 100px*100px
       designation: "Profesionalna udelezenka porok"
-      content: "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      content: "A se kdo poroči? Lahko pridem imam cas.<br>ZoLi produkti so idealno darilo."
       rating: "four" # rating star, one to five

@@ -30,7 +30,17 @@
   {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
+  {{/* {{ "<!-- Custom CSS -->" | safeHTML }}
+  {{ $custom := resources.Get "css/custom.css" | resources.Minify{{ $custom := resources.Get "css/custom.css" |
+  resources.Minify | resources.Fingerprint }} */}}
+  <link rel="stylesheet" href="/css/custom.css" />
+
+
   {{ "<!-- Favicon -->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
+  {{/*
+  <link rel="icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon"> */}}
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
 </head>

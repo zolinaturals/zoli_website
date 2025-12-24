@@ -1,33 +1,49 @@
 ---
-date: 2025-12-21T10:43:12+01:00
+date: 2025-12-22T14:39:01+01:00
 draft: false
 
-# product price
-price: "2.5"
-priceBefore: "3.0"
-
-# product ID
-productID: "1"
-
-# type must be "products"
+# Type must be "products".
 type: "products"
 
-# product images
-# first image will be shown on the product page
+productID: ""
+
+price: "3.00"
+priceBefore: "5.00"
+showPrice: false
+
 images:
-    - image: "images/products/product-2.png"
-    - image: "images/products/product-3.png"
-# - image: "images/products/kopalna-kroglica-detox-1.png"
+    - image: "images/products/kopalna-kroglica-detox-1.png"
+    - image: "images/products/kopalna-kroglica-detox-1.png"
+    - image: "images/products/kopalna-kroglica-detox-1.png"
+
+title: "Kopalna Kroglica - DETOX"
+
+# Description change to correct language.
+description: "Za občutek svežine, čiščenje in obnovitev."
 
 
-title: "Bath kugel - RELAX"
+# Short description, change to correct language.
+shortDescription: "Doživite poživljajoč detox ritual z naravnimi
+kopalnimi kroglicami, ustvarjenimi za globinsko
+osvežitev telesa in podporo občutku čistosti.
+Idealne so za trenutke, ko želite sprostiti
+napetosti, očistiti telo nečistoč ter prebuditi
+energijo
 
-# meta description
-description: "Perfect body and mind care. Green color."
+**Za kaj so kopalne kroglice odlične?**
 
-# product short description
-shortDescription: "Short product description shown in listings"
+✔ Za občutek globinskega čiščenja kože
+
+✔ Za sproščanje po vadbi in fizičnem naporu
+
+✔ Za osvežitev uma, obnovitev energije in poživitev
+
+✔ Za zmanjšanje občutka teže ali utrujenosti
+
+✔ Za ustvarjanje"
 ---
+
+> [!IMPORTANT] Write localized product details.
 
 This paragraph represents the **main product description**.
 

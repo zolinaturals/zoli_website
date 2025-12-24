@@ -14,3 +14,5 @@ your_message_form:
   other: "Vaše sporočilo"
 send_message_button:
   other: "Pošlji sporočilo"
+project_events:
+  other: "Nedavni dogodki"

@@ -1,4 +1,19 @@
 ---
+date: {{ .Date }}
+draft: true
+
+# Type must be "products".
+type: "products"
+
+productID: ""
+
+price: "0.00"
+priceBefore: ""
+showPrice: false
+
+images:
+  - image: "images/products/product-1.png"
+
 title: "{{ replace .Name "-" " " | title }}"
 
 # Description change to correct language.
