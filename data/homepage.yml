@@ -122,7 +122,7 @@ testimonial:
   testimonialItem:
     # testimonial item loop
     - name: "Zdravko Dren"
-      image: "images/clients/client-1.jpg" # size 100px*100px
+      image: "images/clients/client-man.png" # size 100px*100px
       designation: "CEO, Sam svoj sef svojga stola na svojem vrtu"
       content: "Sem Zdravko Dren.<br>Odkar sm po nizki ceni kupil kreme od<br>sosede, sem tudi zdrav ko dren."
       rating: "five" # rating star, one to five
@@ -130,22 +130,22 @@ testimonial:
     # testimonial item loop
     - name: "Ziva Groza"
       # TODO (Lj): odstrani sliko iz theme.
-      image: "images/clients/client-2.jpg" # size 100px*100px
-      designation: "Upraviteljica debatnih krozkov - dez bo!"
+      image: "images/clients/client-woman.png" # size 100px*100px
+      designation: "Upraviteljica debatnih krožkov - dez bo!"
       content: "Enkrat sem pobrala eno milo na cesti.<br>Mislim, da je blo od sosede.<br>Pes ga je pojedu, pa bruhu, zanic."
       rating: "one" # rating star, one to five
 
     # testimonial item loop
     - name: "Niko Lzbolu"
-      image: "images/clients/client-3.jpg" # size 100px*100px
-      designation: "CEO, med korono ustanovitelj medobcinskega programa:
-        gremo v dugo obcino."
+      image: "images/clients/client-man.png" # size 100px*100px
+      designation: "CEO, med korono ustanovitelj medobčinskega programa:
+        gremo v drugo občino."
       content: "Ne maram Zdravkota. Prav da je korenine... sam js sem ga ze vidu bolanega."
       rating: "five" # rating star, one to five
 
     # testimonial item loop
     - name: "Meta Lecriza"
-      image: "images/clients/client-2.jpg" # size 100px*100px
-      designation: "Profesionalna udelezenka porok"
+      image: "images/clients/client-woman.png" # size 100px*100px
+      designation: "Profesionalna udeleženka porok"
       content: "A se kdo poroči? Lahko pridem imam cas.<br>ZoLi produkti so idealno darilo."
       rating: "four" # rating star, one to five

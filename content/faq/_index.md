@@ -5,6 +5,11 @@ draft: false
 description : "this is a meta description"
 ---
 
-### Frequently Asked Questions
+<!-- ### Frequently Asked Questions
 
-Below FAQ are some common concerns of our clients before purchasing the <br> theme, if you have other questions, please just send it to demo@email.com
+Below FAQ are some common concerns of our clients before purchasing the <br> theme, if you have other questions, please just send it to barbi.jeras@gmail.com. -->
+
+### Pogosta vprašanja
+
+Spodaj so navedena pogosta vprašanja naših strank pred nakupom produktov.<br>
+Če imate dodatna vprašanja, jih pošljite na barbi.jeras@gmail.com.
