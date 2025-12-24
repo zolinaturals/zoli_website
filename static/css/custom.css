@@ -1,0 +1,12 @@
+/* assets/css/custom.css */
+.home-about .col-lg-7 img.img-fluid {
+    height: 320px;
+    /* width: 100%; */
+    /* object-fit: cover; */
+    /* avoids distortion; crops edges if needed */
+}
+
+/* Scope to a section with a class to avoid global side effects */
+.home-about .col-lg-7 {
+    overflow: hidden;
+}
