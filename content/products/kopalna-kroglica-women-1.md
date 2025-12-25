@@ -19,7 +19,7 @@ images:
 title: "Kopalna Kroglica - WOMEN"
 
 # Description change to correct language.
-description: "Za občutek ravnovesja in notranje umiritve."
+description: "🌿 Za občutek ravnovesja in notranje umiritve."
 
 
 # Short description, change to correct language.

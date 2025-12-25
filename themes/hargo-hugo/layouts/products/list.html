@@ -4,7 +4,23 @@
 
 <section class="section pt-0">
   <div class="container">
+
+    {{ with site.Params.catalogue }}
+    <div class="d-flex align-items-center gap-3 mb-4 p-3 rounded">
+      <a class="btn btn-primary btn-lg" href="{{ .Path | relURL }}" target="_blank">
+        <i class="bi bi-file-earmark-pdf me-2"></i>
+        {{ .label }}
+        {{/* Prenesi katalog (PDF) */}}
+        <div class="text-muted small">
+          Zadnja posodobitev: {{ .version }}<br>
+          Format: PDF
+        </div>
+      </a>
+    </div>
     <div class="row">
+      {{ end }}
+
+
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card border-0 text-center">

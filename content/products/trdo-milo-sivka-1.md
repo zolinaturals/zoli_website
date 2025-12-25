@@ -5,7 +5,7 @@ draft: false
 # Type must be "products".
 type: "products"
 
-productID: ""
+productID: "5"
 
 price: "10.00"
 priceBefore: ""
@@ -17,7 +17,7 @@ images:
 title: "Trdo Milo Sivka"
 
 # Description change to correct language.
-description: "Klasična nežnost in čista pomiritev."
+description: "🌿 Klasična nežnost in čista pomiritev."
 
 
 # Short description, change to correct language.

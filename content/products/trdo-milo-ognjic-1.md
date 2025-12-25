@@ -5,10 +5,10 @@ draft: false
 # Type must be "products".
 type: "products"
 
-productID: ""
+productID: "4"
 
 price: "4.00"
-priceBefore: 4.70"
+priceBefore: "4.70"
 showPrice: false
 
 images:
@@ -17,7 +17,7 @@ images:
 title: "Trdo Milo Ognjič"
 
 # Description change to correct language.
-description: "Nežna nega in pomirjanje koze."
+description: "🌿 Nežna nega in pomirjanje kože."
 
 
 # Short description, change to correct language.

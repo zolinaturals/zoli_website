@@ -5,7 +5,7 @@ draft: false
 # Type must be "products".
 type: "products"
 
-productID: ""
+productID: "1"
 
 price: "3.00"
 priceBefore: "5.00"
@@ -19,7 +19,7 @@ images:
 title: "Kopalna Kroglica - DETOX"
 
 # Description change to correct language.
-description: "Za občutek svežine, čiščenje in obnovitev."
+description: "🌿 Za občutek svežine, čiščenje in obnovitev."
 
 
 # Short description, change to correct language.

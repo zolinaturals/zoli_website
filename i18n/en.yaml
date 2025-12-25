@@ -18,3 +18,5 @@ project_events:
   other: "Recent Events"
 faq_ask_your_question:
   other: "Ask Your Question"
+language_change_lbl:
+  other: "Change language to:"

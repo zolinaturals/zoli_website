@@ -1,36 +1,27 @@
 ---
-title: "Terms & Conditions"
-date: 2019-10-17T11:22:16+06:00
+title: "Pogoji poslovanja"
+date: 2025-12-24
 draft: false
-description : "this is a meta description"
+description: "Pogoji poslovanja za nakup naših izdelkov"
 ---
 
-### Terms and Condition
+### Pogoji poslovanja
 
-Please read this terms and conditions stated below, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both of us, as a customer, or as a seller. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at contact@themefisher.com and we’ll do our best to resolve it in a fair and timely way .
+Prosimo, preberite spodnje pogoje poslovanja. Naš cilj je, da ste zadovoljni z nakupom naših naravnih mil, šamponov in izdelkov za kopel. Če imate vprašanja, pišite na **barbi.jeras@gmail.com**.
 
-### Product Buy & delivery policy
+### Nakup in dostava
 
-1)All payments are processed securely through PayPal or Stripe. Themefisher does not directly process payments through the website. So any kind of Problem if you face Themefisher will Not Take any responsibility.
+1. Plačila se izvajajo varno preko PayPal ali Stripe.
+2. Izdelke pošiljamo po pošti v najkrajšem možnem času. Stroški dostave so prikazani ob zaključku nakupa.
 
-### Product Buy & delivery policy
+### Politika vračil
 
-Please read this terms and conditions stated below, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both of us, as a customer, or as a seller. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at contact@themefisher.com and we’ll do our best to resolve it in a fair and timely way .
+1. Izdelek lahko vrnete v 14 dneh, če ni bil uporabljen in je v originalni embalaži.
+2. Stroške vračila krije kupec, razen če je izdelek poškodovan ali napačen.
+3. Vračila obdelamo v 3–5 delovnih dneh po prejemu izdelka.
 
-### Refund Policy
+### Podpora strankam
 
-1) Since Themefisher is offering non-tangible and irrevocable digital products, we do NOT issue refunds after a purchase is made. If there is a problem with one of the digital download products or if you experience any difficulty with the download, we will fix the problem.
-2) You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by The Themefisher. In the event that you wish to receive a refund, Themefisher will issue you a refund and ask you to specify how the product failed to live up to expectations.
-3) When you make a qualifying return, We’ll credit the full amount, less the handling charges. Refunds are generally processed within 3–5 business days after we receive your claim and find it eligible for a return. Refunds are applied to the original payment option.
+Za vprašanja o izdelkih, naročilih ali vračilih nas kontaktirajte na **barbi.jeras@gmail.com**. Vedno se trudimo rešiti težave hitro in pošteno.
 
-### Support Policy
-1) Since Themefisher is offering non-tangible and irrevocable digital products, we do NOT issue refunds after a purchase is made. If there is a problem with one of the digital download products or if you experience any difficulty with the download, we will fix the problem.
-2) You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by The Themefisher. In the event that you wish to receive a refund, Themefisher will issue you a refund and ask you to specify how the product failed to live up to expectations.
-3) When you make a qualifying return, We’ll credit the full amount, less the handling charges. Refunds are generally processed within 3–5 business days after we receive your claim and find it eligible for a return. Refunds are applied to the original payment option.
-
-### Why We Support:
-
-1. Support covers getting up and help in theme setup
-2. Help using features and theme options
-3. Bug fixes – if you discovered a bug in the theme/Template we will fix it
-4. Functionality which does not work as advertised
+---
