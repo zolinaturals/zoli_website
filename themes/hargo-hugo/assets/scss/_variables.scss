@@ -1,12 +1,13 @@
 // Color Variables
 
 // ZoLi logo colors:
-$logo-font-color: #bc9c22; //
+$darken-logo-font-color: #91781a;
+$logo-font-color: #bc9c22;
 $logo-background-light: #fbcbea;
 $logo-background-medium: #fbe3ed;
 $logo-background-dark: #f9cbe2;
-$logo-background-custom1: #f69fcf;
-$logo-background-custom2: #b8578c;
+$logo-background-custom1: #f49dc9;
+$logo-background-custom2: #ee70af;
 
 // Default values.
 // $primary-color: #5AB51E;
@@ -23,9 +24,7 @@ $light: rgb(223, 223, 223);
 // from logo
 //$primary-color: #ff00ff; // fuchsia
 $primary-color: $logo-background-custom1;
-// dark gold
-$text-color: #867320;
-$text-color: $logo-font-color;
+$text-color: $darken-logo-font-color;
 
 
 $primary-gradient: linear-gradient(27deg, $logo-background-light 0%, $logo-background-custom1 100%);
