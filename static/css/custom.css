@@ -20,6 +20,25 @@ h6 {
     color: #f69fcf;
 }
 
+/* The progress container (grey background) */
+.progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    width: 100%;
+    background: #fbcbeb;
+    z-index: 1050;
+}
+
+/* The progress bar (scroll indicator) */
+.top-scroll-progress-bar {
+    height: 5px;
+    background: #bc9c22;
+    width: 0%;
+    transition: width 0.1s linear;
+}
 
 .language-dropdown {
     position: relative;
