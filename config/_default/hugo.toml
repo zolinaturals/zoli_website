@@ -125,7 +125,7 @@ logo = "images/logo.png"
 home = "Domov"
 # Meta data
 description = "A young company crafting natural soaps, shampoos, and body care products. High-quality, sustainable solutions for healthy skin and hair."
-descirption = "Mlado podjetje, ki ročno izdeluje naravne mila, šampone in izdelke za nego telesa. Kakovostni, trajnostni izdelki za zdravo kožo in lase."
+descirption = "Mlado podjetje, ki ročno izdeluje naravna mila, šampone in izdelke za nego telesa. Kakovostni, trajnostni izdelki za zdravo kožo in lase."
 author = "Luka & Themefisher"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
