@@ -5,7 +5,7 @@ draft: false
 # Type must be "products".
 type: "products"
 
-productID: ""
+productID: "7"
 
 price: "0.00"
 priceBefore: ""

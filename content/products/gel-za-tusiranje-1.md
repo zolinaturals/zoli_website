@@ -1,6 +1,6 @@
 ---
 date: 2025-12-25T06:59:25+01:00
-draft: true
+draft: false
 
 # Type must be "products".
 type: "products"
