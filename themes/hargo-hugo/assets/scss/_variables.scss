@@ -1,33 +1,46 @@
 // Color Variables
 
 // ZoLi logo colors:
-$darken-logo-font-color: #91781a;
-$logo-font-color: #bc9c22;
-$logo-background-light: #fbcbea;
-$logo-background-medium: #fbe3ed;
-$logo-background-dark: #f9cbe2;
-$logo-background-custom1: #f49dc9;
-$logo-background-custom2: #ee70af;
+// Gold colors.
+$logo-font-dark: #7b6616;
+$logo-font-medium: #91781a;
+// Actual font color.
+$logo-font-light: #bc9c22;
 
-// Default values.
+// Pink colors.
+$logo-background-DARK: #f03db4;
+$logo-background-Dark: #f46cc7;
+$logo-background-dark: #f79cd9;
+
+// Actual background color
+$logo-background-medium: #fbcbeb;
+$logo-background-light: #fbd5ec;
+$logo-background-Light: #f8dee2;
+$logo-background-LIGHT: #faebe8;
+
+
+
+// Default color values.
 // $primary-color: #5AB51E;
 // $text-color: #333333;
-$text-color-dark: $logo-background-custom2;
+// $text-color-dark: #222222;
+// $body-color: #fff;
+// $border-color: #D1D1D1;
+// $black: #000;
+// $white: #fff;
+// $light: rgb(223, 223, 223);
+
+// Custom color values.
+$primary-color: $logo-background-DARK;
+$text-color: $logo-font-medium;
+$text-color-dark: $logo-font-dark;
 $body-color: #fff;
 $border-color: #D1D1D1;
-//$black: #000;
-$black: rgba(41, 177, 41, 0.133);
+$black: #000;
 $white: #fff;
 $light: rgb(223, 223, 223);
 
-
-// from logo
-//$primary-color: #ff00ff; // fuchsia
-$primary-color: $logo-background-custom1;
-$text-color: $darken-logo-font-color;
-
-
-$primary-gradient: linear-gradient(27deg, $logo-background-light 0%, $logo-background-custom1 100%);
+$primary-gradient: linear-gradient(27deg, $logo-background-medium 0%, $logo-background-Dark 100%);
 
 // Font Variables
 // $primary-font: 'Quicksand', sans-serif;
