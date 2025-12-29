@@ -23,10 +23,12 @@
         {{ end }}
         {{ if .Params.ShowPrice }}
         <div class="my-4">
+          {{ if .Params.showPrice }}
           {{ if .Params.PriceBefore }}
           <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
           {{ end }}
           <span class="lead text-primary font-weight-medium">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
+          {{ end }}
         </div>
         <{{ end }} <h5>{{ i18n "short_product_description" }}</h5>
           <p>{{ .Params.ShortDescription | markdownify }}</p>
