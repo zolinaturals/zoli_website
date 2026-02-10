@@ -169,23 +169,23 @@ publicKey = "811cf0927332bf51f2e12f84608594ac"
 icon = "ti-facebook"
 link = "https://www.facebook.com/share/1ZHE2BErDC/?mibextid=LQQJ4d"
 
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
+# [[params.social]]
+# icon = "ti-twitter-alt"
+# link = "#"
 
-[[params.social]]
-icon = "ti-youtube"
-link = "#"
+# [[params.social]]
+# icon = "ti-youtube"
+# link = "#"
 
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
+link = "https://www.instagram.com/zoli_butiknarave?igsh=MW5tOXZnMmh4ZXo0ag=="
 
-[[params.social]]
-icon = "ti-pinterest"
-link = "#"
+# [[params.social]]
+# icon = "ti-pinterest"
+# link = "#"
 
 # Contact Form
 # TODO (lj): Figure out how this works.
 [params.contact]
-formAction = "#" # contact form works with formspree.io
+formAction = "https://formspree.io/f/mqekwqgy#" # contact form works with formspree.io

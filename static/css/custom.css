@@ -17,7 +17,9 @@ h3,
 h4,
 h5,
 h6 {
-    color: #f69fcf;
+    /* color: #f69fcf; */
+    color: #f03db4;
+    /* color: #e812a0; */
 }
 
 /* The progress container (grey background) */
