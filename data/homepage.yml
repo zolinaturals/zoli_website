@@ -1,16 +1,14 @@
 ############################ banner ##########################
 banner:
   enable: true
-  title: "ZoLi: Kjer znanost sreča naravo."
+  title: "ZoLi: Kjer znanost sreča naravo"
   content:
     "Narava s poklicem. Zgodba, ki jo pozna vsaka kapljica. V svetu industrijsko izdelane
     kozmetike smo se navadili na popolnost brez pristnosti — na teksture, ki obljubljajo več,
     kot resnično dajo. A vaše telo si zasluži več. Resnično nego, ki spoštuje njeno naravo."
   image:
-    path: "images/banner.png"
+    path: "images/banner_w600.png"
     height_px: 320
-  # image: "images/banner.png"
-  # button
   button:
     enable: true
     label: "Produkti"
@@ -31,14 +29,15 @@ about:
     Skupaj ustvarjava formulacije, ki so čiste, preproste in presenetljivo učinkovite.
     Vsak kos mila, vsaka steklenička šampona je rezultat te redke povezanosti — moči narave in
     natančnosti znanosti."
-  image: "images/from_lab_to_bathroom.jpg"
+  image: "images/from_lab_to_bathroom.png"
 
 ###################### Call to action ########################
 cta:
   enable: true
   title: "Ljubezen, ki je zrasla iz znanosti"
   content: "ZoLi se je rodila iz ljubezni do naravnega, do čistosti, in do znanosti."
-  image: "images/cta.png"
+  # image: "images/cta.png"
+  image: "images/banner 2.png"
   overlayImage: "images/cta-overlay.png"
   button:
     label: "Poglej produkte"
@@ -85,18 +84,17 @@ material:
 ########################### Advantage #########################
 advantage:
   enable: true
-  title: "Prednosti uporabe<br>naših produktov"
-  subtitle: "V primerjavi z ostalo ponudbo na trgu nas zelo preprosto
-    opisujeta dve besedi: <br> Boljši smo!!!!"
+  title: "Zakaj ZoLi?"
+  subtitle: "Prednosti uporabe naših produktov"
   image: "images/advantage.png"
   advantageList:
     # advantage list loop
-    - listItem: "Izjemno nizka cena"
-    - listItem: "Naravne sestavine"
-    - listItem: "Blagodejen vpliv na rast celic"
-    - listItem: "Blaži simptome raka"
-    - listItem: "Bleščeča koza"
-    - listItem: "Boljši spanec."
+    - listItem: "Ker niso le domači."
+    - listItem: "Ker niso le naravni."
+    - listItem: "Ker niso le lepi."
+    - listItem: "So doktorirani."
+    - listItem: "So znanstveno dovršeni."
+    - listItem: "So resnični."
 
 ######################## Promo Video ##########################
 video:
@@ -120,32 +118,56 @@ testimonial:
   enable: true
   title: "Kaj pravijo drugi o nas in naših proizvodih?"
   testimonialItem:
-    # testimonial item loop
-    - name: "Zdravko Dren"
-      image: "images/clients/client-man.png" # size 100px*100px
-      designation: "CEO, Sam svoj sef svojga stola na svojem vrtu"
-      content: "Sem Zdravko Dren.<br>Odkar sm po nizki ceni kupil kreme od<br>sosede, sem tudi zdrav ko dren."
-      rating: "five" # rating star, one to five
+    # # testimonial item loop
+    # - name: "Zdravko Dren"
+    #   image: "images/clients/client-man.png" # size 100px*100px
+    #   designation: "CEO, Sam svoj sef svojga stola na svojem vrtu"
+    #   content: "Sem Zdravko Dren.<br>Odkar sm po nizki ceni kupil kreme od<br>sosede, sem tudi zdrav ko dren."
+    #   rating: "five" # rating star, one to five
 
-    # testimonial item loop
-    - name: "Ziva Groza"
-      # TODO (Lj): odstrani sliko iz theme.
+    # # testimonial item loop
+    # - name: "Ziva Groza"
+    #   # TODO (Lj): odstrani sliko iz theme.
+    #   image: "images/clients/client-woman.png" # size 100px*100px
+    #   designation: "Upraviteljica debatnih krožkov - dez bo!"
+    #   content: "Enkrat sem pobrala eno milo na cesti.<br>Mislim, da je blo od sosede.<br>Pes ga je pojedu, pa bruhu, zanic."
+    #   rating: "one" # rating star, one to five
+
+    # # testimonial item loop
+    # - name: "Niko Lzbolu"
+    #   image: "images/clients/client-man.png" # size 100px*100px
+    #   designation: "CEO, med korono ustanovitelj medobčinskega programa:
+    #     gremo v drugo občino."
+    #   content: "Ne maram Zdravkota. Prav da je korenine... sam js sem ga ze vidu bolanega."
+    #   rating: "five" # rating star, one to five
+
+    # # testimonial item loop
+    # - name: "Meta Lecriza"
+    #   image: "images/clients/client-woman.png" # size 100px*100px
+    #   designation: "Profesionalna udeleženka porok"
+    #   content: "A se kdo poroči? Lahko pridem imam cas.<br>ZoLi produkti so idealno darilo."
+    #   rating: "four" # rating star, one to five
+
+    - name: "Sara"
       image: "images/clients/client-woman.png" # size 100px*100px
-      designation: "Upraviteljica debatnih krožkov - dez bo!"
-      content: "Enkrat sem pobrala eno milo na cesti.<br>Mislim, da je blo od sosede.<br>Pes ga je pojedu, pa bruhu, zanic."
-      rating: "one" # rating star, one to five
-
-    # testimonial item loop
-    - name: "Niko Lzbolu"
-      image: "images/clients/client-man.png" # size 100px*100px
-      designation: "CEO, med korono ustanovitelj medobčinskega programa:
-        gremo v drugo občino."
-      content: "Ne maram Zdravkota. Prav da je korenine... sam js sem ga ze vidu bolanega."
-      rating: "five" # rating star, one to five
-
-    # testimonial item loop
-    - name: "Meta Lecriza"
-      image: "images/clients/client-woman.png" # size 100px*100px
-      designation: "Profesionalna udeleženka porok"
-      content: "A se kdo poroči? Lahko pridem imam cas.<br>ZoLi produkti so idealno darilo."
+      designation: "Domžale"
+      content: "Vaše izdelke res rada uporabljam, ker se vidi, da so narejeni z ljubeznijo in so zelo kakovostni. Kopalne kroglice so moj najljubši del razvajanja – vsaka kopel je pravi mali užitek."
       rating: "four" # rating star, one to five
+
+    - name: "Dijana"
+      image: "images/clients/client-woman.png" # size 100px*100px
+      designation: "Lukovica"
+      content: "Šampon je odličen za občutljivo lasišče, saj ga ne izsuši in pusti lase prijetno mehke. Z veseljem ga uporabljam in ga zlahka priporočim tudi drugim."
+      rating: "five" # rating star, one to five
+
+    - name: "Katja"
+      image: "images/clients/client-woman.png" # size 100px*100px
+      designation: "Vransko"
+      content: "Gel za tuširanje je navdušil mene in partnerja. Lepo se razmaže, prijetno diši in je postal stalnica v najini kopalnici."
+      rating: "five" # rating star, one to five
+
+    - name: "Eva"
+      image: "images/clients/client-woman.png" # size 100px*100px
+      designation: "Mengeš"
+      content: "Milo je res nežno do kože, a hkrati učinkovito. Po uporabi se počutim osveženo in negovano. Zelo sem zadovoljna z rezultati."
+      rating: "five" # rating star, one to five

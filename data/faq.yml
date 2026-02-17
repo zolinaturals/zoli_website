@@ -1,15 +1,73 @@
 faqItem:
-  - title: Ali so produkti primerni tud za uporabo na živalih?
-    content: Če jim ne dovolimo užijta so povsem zdravi tudi za pranje domačega psa.
+  - title: Ali so vaši izdelki res 100 % naravni?
+    content: "Naši izdelki so narejeni iz skrbno izbranih naravnih sestavin.
+      Ne vsebujejo sintetičnih dišav, parabenov, silikonov ali drugih spornih snovi."
 
-  - title: Se da pridobiti kaksen popust?
-    content: Odvisno od sezone, ampak bolj ne kot ja.
+  - title: Ali so izdelki primerni za občutljivo kožo?
+    content: "Da, večina izdelkov je primerna tudi za občutljivo kožo.
+      Kljub temu priporočamo test na manjšem predelu kože."
 
-  - title: Je trdo milo primerno tudi za suho kožo?
-    content: Seveda, milu je dodana izjemna vlažilna krema, ki kozo zaščiti pred negativnimi učinki NaOH-ja.
+  - title: Ali so izdelki veganski?
+    content:
+      "Da. Vsi naši izdelki so 100 % veganski in ne vsebujejo nobenih sestavin živalskega izvora.
+      Pri razvoju uporabljamo izključno rastlinske in mineralne sestavine ter
+      spoštujemo etična načela do živali in narave."
 
-  - title: Lahko pridem produkte prevzeti osebno?
-    content: "**Seveda**. Vse produkte se lahko po predhodnem dogovoru prevzame tudi v glavni pisarni podjetja."
+  - title: Ali so izdelki testirani na živalih?
+    content: Ne. Izdelkov in sestavin ne testiramo na živalih.
 
-  - title: Vracila in povrnitev kupnine?
-    content: V kolikor z našim produktom niste zadovoljni, lahko zahtevate povračilo kupnine znotraj 14 dni od nakupa. Pazite samo, da v tem času ne porabite vsega produkta.
+  - title: Kako dolgo je izdelek uporaben?
+    content: Rok uporabe izdelka je označen na embalaži (npr. 12M).
+
+  - title: Kako naj izdelke shranjujem?
+    content:
+      "Kozmetične izdelke priporočamo shranjevati v hladnem in suhem prostoru,
+      stran od neposredne sončne svetlobe. Po vsaki uporabi embalažo dobro zaprite.
+      Tako ohranite kakovost in učinkovitost izdelka."
+
+  - title: Kje so izdelki proizvedeni?
+    content:
+      "Naši izdelki so proizvedeni v Sloveniji, kjer jih v manjših serijah pripravljamo
+      z veliko skrbnosti in pozornosti do vsake podrobnosti. Butična priprava nam omogoča
+      visoko kakovost, svežino in skrbno izbrane sestavine."
+
+  - title: Kako oddam naročilo?
+    content:
+      "Naročilo lahko oddate preko našega kontaktnega obrazca na spletni strani ali pa
+      nam pišete na enega izmed e-poštnih naslovov: info@zoli.si ali info@zolibynature.com.
+      V sporočilu navedite želene izdelke ter svoje kontaktne podatke, mi pa vas bomo v
+      najkrajšem možnem času obvestili o nadaljnjih korakih."
+
+  - title: Kakšni so stroški in čas dostave?
+    content:
+      "Stroške dostave vam izračunamo na podlagi izbranih izdelkov in vam jih sporočimo
+      ob pripravi ponudbe. Čas dostave je običajno nekaj delovnih dni od
+      prejema plačila oziroma potrditve nakupa."
+
+  - title: Ali je možen osebni prevzem?
+    content: "Osebni prevzem je možen na naslovu podjetja
+      (Gradišče pri Lukovici 5b, 1225 Lukovica) ob predhodnem dogovoru."
+
+  - title: Kako se lahko prijavim na e-novice?
+    content:
+      "Na e-novice se lahko prijavite preko obvestilnega pasu na naši spletni strani
+      ali preko prijavnega obrazca, ki se nahaja pod kontaktnimi podatki.
+      S prijavo boste prejemali informacije o novih izdelkih, dogodkih,
+      ekskluzivnih popustih ter možnostih prednaročil novih izdelkov."
+
+  - title: Katere načine plačila sprejemate?
+    content:
+      "Plačilo je možno z nakazilom na transakcijski račun podjetja (TRR) po prejemu
+      ponudbe ali s plačilom po povzetju ob prevzemu pošiljke."
+
+  - title: Ali lahko izdelek vrnem?
+    content: "Vračilo izdelkov žal ni možno, saj gre za kozmetične izdelke.
+      Zaradi varovanja zdravja in higienskih razlogov vračila odprtih ali
+      zaprtih kozmetičnih izdelkov ne sprejemamo."
+
+  - title: Kako lahko uveljavljam reklamacijo?
+    content:
+      "V primeru reklamacije nas, prosimo, kontaktirajte preko enega izmed e-poštnih
+      naslovov info@zoli.si ali info@zolibynature.com. V sporočilu navedite številko naročila,
+      opis težave in po možnosti priložite fotografije. Vašo reklamacijo bomo obravnavali v
+      najkrajšem možnem času."

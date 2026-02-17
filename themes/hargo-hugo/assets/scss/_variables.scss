@@ -34,15 +34,18 @@ $logo-background-LIGHT: #faebe8;
 // Custom color values.
 $primary-color: $logo-background-DARK2;
 $text-color: $logo-font-dark;
-// $text-color: #000;
-$text-color-dark: $logo-font-dark;
+$text-color: #000;
+// $text-color-dark: $logo-font-dark;
+$text-color-dark: #51e416;
+// Color of the body background.
 $body-color: #fff;
+// Color of borders and other elements. For example, line below header menu.
 $border-color: #D1D1D1;
 $black: #000;
 $white: #fff;
 $light: rgb(223, 223, 223);
 
-$primary-gradient: linear-gradient(27deg, $logo-background-medium 0%, $logo-background-Dark 100%);
+$primary-gradient: linear-gradient(27deg, $logo-background-medium 0%, $logo-background-DARK 100%);
 
 // Font Variables
 // $primary-font: 'Quicksand', sans-serif;

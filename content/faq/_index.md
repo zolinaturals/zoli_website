@@ -9,7 +9,7 @@ description : "this is a meta description"
 
 Below FAQ are some common concerns of our clients before purchasing the <br> theme, if you have other questions, please just send it to barbi.jeras@gmail.com. -->
 
-### Pogosta vprašanja
+Spodaj najdete odgovore na nekaj pogostih skrbi naših strank.
 
-Spodaj so navedena pogosta vprašanja naših strank pred nakupom produktov.<br>
-Če imate dodatna vprašanja, jih pošljite na barbi.jeras@gmail.com.
+Za odgovore, ki jih spodaj ne najdete nam pišite na <info@zoli.si> ali <info@zolibynature.com>
+ali preko kontaktnega obrazca.<br>Z veseljem vam bomo pomagali.

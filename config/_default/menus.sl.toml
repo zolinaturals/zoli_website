@@ -37,7 +37,7 @@ URL = "blog/"
 weight = 2
 
 [[footer]]
-name = "FAQ"
+name = "Pogosta vprašanja"
 URL = "faq/"
 weight = 3
 

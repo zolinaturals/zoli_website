@@ -3,55 +3,53 @@
 <!-- Page Header (Hargo standard) -->
 {{ partial "page-title.html" . }}
 
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <!-- Main Content -->
-            <div class="col-lg-8">
-                <!-- Fixed Project Description -->
-                <div class="content mb-1">
-                    {{ .Content }}
-                </div>
+<div class="container">
+    <div class="row">
+        <!-- Main Content -->
+        <div class="col-lg-8">
+            <!-- Fixed Project Description -->
+            <div class="content mb-1">
+                {{ .Content }}
+            </div>
 
-                <!-- Project Articles -->
-                <div class="project-articles">
-                    <h3 class="mb-4">{{ i18n "project_events" }}</h3>
+            <!-- Project Articles -->
+            <div class="project-articles">
+                <h3 class="mb-4">{{ i18n "project_events" }}</h3>
 
-                    {{ range .Pages.ByDate.Reverse }}
-                    {{/* <article class="mb-4 pb-4 border-bottom"> */}}
+                {{ range .Pages.ByDate.Reverse }}
+                {{/* <article class="mb-4 pb-4 border-bottom"> */}}
 
-                        <li class="mb-2">
-                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                            {{/* <a>{{ .Title }}</a> */}}
-                            — <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "02. Jan 2006"
-                                }}</time>
-                            {{/* {{ with (or {{ with (or .Params.author site.Params.author) }} · {{ . }}{{ end }} */}}
+                    <li class="mb-2">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        {{/* <a>{{ .Title }}</a> */}}
+                        — <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "02. Jan 2006"
+                            }}</time>
+                        {{/* {{ with (or {{ with (or .Params.author site.Params.author) }} · {{ . }}{{ end }} */}}
 
-                        </li>
+                    </li>
 
-                        {{/* <h4>
-                            <a href="{{ .RelPermalink }}" class="text-dark">
-                                {{ .Title }}
-                            </a>
-                        </h4> */}}
+                    {{/* <h4>
+                        <a href="{{ .RelPermalink }}" class="text-dark">
+                            {{ .Title }}
+                        </a>
+                    </h4> */}}
 
-                        {{/* {{ partial "post-meta.html" . }} */}}
+                    {{/* {{ partial "post-meta.html" . }} */}}
 
-                        {{/* <p>
-                            {{ .Summary }}
-                        </p> */}}
+                    {{/* <p>
+                        {{ .Summary }}
+                    </p> */}}
 
-                        {{/*
-                    </article> */}}
-                    {{ end }}
-
-                </div>
+                    {{/*
+                </article> */}}
+                {{ end }}
 
             </div>
 
-
         </div>
+
+
     </div>
-</section>
+</div>
 
 {{ end }}
