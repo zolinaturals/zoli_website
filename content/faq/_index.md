@@ -7,7 +7,7 @@ description : "this is a meta description"
 
 <!-- ### Frequently Asked Questions
 
-Below FAQ are some common concerns of our clients before purchasing the <br> theme, if you have other questions, please just send it to barbi.jeras@gmail.com. -->
+Below FAQ are some common concerns of our clients before purchasing the <br> theme, if you have other questions, please just send it to <info@zoli.si> ali <info@zolibynature.com>. -->
 
 Spodaj najdete odgovore na nekaj pogostih skrbi naših strank.
 

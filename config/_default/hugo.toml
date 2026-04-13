@@ -136,11 +136,11 @@ mapMarker = "images/marker.png"
 googleAnalyticsID = "" # Your ID
 # Contact Information
 mobile = "+386 40 990 705"
-email = "barbi.jeras@gmail.com"
+email = "info@zoli.si ali info@zolibynature.com"
 location = "Gradišče pri Lukovici 5b, 1225 Lukovica"
 # copyright
 # copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
-copyright = "| Copyright &copy; 2025 Barbi All Rights Reserved |"
+copyright = "| Copyright &copy; 2025 Jeras & Co d.n.o. All Rights Reserved |"
 # Snipcart Credentials
 # TODO (lj): Initially remove snipcart functionality. Later we can add.
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
@@ -149,9 +149,10 @@ currencySymbol = "€"
 [params.catalogue]
 # Needs to be placed in /static/ folder of root folder.
 # path = "ZoLi-predstavitev_izdelkov_v2025-11.pdf"
-path = "ZoLi-predstavitev_izdelkov_v2025-12-31.pdf"
+# path = "ZoLi-predstavitev_izdelkov_v2025-12-31.pdf"
+path = "ZoLi-predstavitev_izdelkov_v2026-03-26-skupna-brez_cenika.pdf"
 label = "Prenesi katalog (PDF)"
-version = "november 2025"
+version = "marec 2026"
 
 # Preloader
 [params.preloader]

@@ -13,6 +13,7 @@ contact:
 
   # opennig hour
   opennigHour:
+    enable: true
     title: "Odpiralni čas"
     dayTimeList:
       - dayTime: "Ponedeljek: 9:00 – 19:00"

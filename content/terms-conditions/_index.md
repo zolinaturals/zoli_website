@@ -7,7 +7,7 @@ description: "Pogoji poslovanja za nakup naših izdelkov"
 
 ### Pogoji poslovanja
 
-Prosimo, preberite spodnje pogoje poslovanja. Naš cilj je, da ste zadovoljni z nakupom naših naravnih mil, šamponov in izdelkov za kopel. Če imate vprašanja, pišite na **barbi.jeras@gmail.com**.
+Prosimo, preberite spodnje pogoje poslovanja. Naš cilj je, da ste zadovoljni z nakupom naših naravnih mil, šamponov in izdelkov za kopel. Če imate vprašanja, pišite na **<info@zoli.si>** ali **<info@zolibynature.com>**.
 
 ### Nakup in dostava
 
@@ -22,6 +22,6 @@ Prosimo, preberite spodnje pogoje poslovanja. Naš cilj je, da ste zadovoljni z 
 
 ### Podpora strankam
 
-Za vprašanja o izdelkih, naročilih ali vračilih nas kontaktirajte na **barbi.jeras@gmail.com**. Vedno se trudimo rešiti težave hitro in pošteno.
+Za vprašanja o izdelkih, naročilih ali vračilih nas kontaktirajte na **<info@zoli.si>** ali **<info@zolibynature.com>**. Vedno se trudimo rešiti težave hitro in pošteno.
 
 ---

@@ -8,7 +8,7 @@ description : "this is a meta description"
 
 ![Moc narave banner](/images/project/trajnostne_zgodbe_grafika_w500.png)
 
-## Uspešno pridobljen projekt »Moč narave« na razpisu LAS Srce Slovenije
+## Projekt »Moč narave«
 
 Podjetje Jeras & Co. d.n.o. je skupaj s partnerjem Čebelarskim društvom Dolsko uspešno kandidiralo na 2. javnem pozivu LAS Srce Slovenije za izbor projektov ESRR. Z veseljem sporočamo, da je naš skupni projekt »Moč narave« prejel podporo in bo v naslednjih dveh letih pomembno prispeval k razvoju lokalnega podjetništva, priprave naravnih proizvodov ter turistične ponudbe na območju LAS.
 

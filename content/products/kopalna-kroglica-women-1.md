@@ -13,8 +13,8 @@ showPrice: false
 
 images:
     - image: "images/products/kopalna-kroglica-women-1.png"
-    - image: "images/products/kopalna-kroglica-women-1.png"
-    - image: "images/products/kopalna-kroglica-women-1.png"
+    # - image: "images/products/kopalna-kroglica-women-1.png"
+    # - image: "images/products/kopalna-kroglica-women-1.png"
 
 title: "Kopalna Kroglica - WOMEN"
 
@@ -30,34 +30,35 @@ shortDescription: "Razvajajte svoje telo in um z nežnimi kopalnimi
     naravnih sestavin, ki v vodi ustvarijo pomirjujoč,
     negovalen in aromaterapevtski ritual.
 
-    **Za kaj so kopalne kroglice odlične?**
+    <br><br>**Za kaj so kopalne kroglice odlične?**
 
-    ✔ Za ženske, ki iščejo naraven večerni ritual
-
-    ✔ Za trenutke utrujenosti, napetosti ali razdražljivosti
-
-    ✔ Za tiste, ki želijo ustvariti občutek harmonije in topline
-
-    ✔ Za nežno nego kože in aromaterapevtsko razvajanje"
+    <br>✔ Za ženske, ki iščejo naraven večerni ritual
+    <br>✔ Za trenutke utrujenosti, napetosti ali razdražljivosti
+    <br>✔ Za tiste, ki želijo ustvariti občutek harmonije in topline
+    <br>✔ Za nežno nego kože in aromaterapevtsko razvajanje"
 ---
 
 <!-- > [!IMPORTANT] Write localized product details. -->
 
 
-🌿**Bogata mineralna kopel**
+🌿 **Bogata mineralna kopel**
+
 Epsom sol (magnezijev sulfat) pomaga ustvariti občutek sprostitve ter razbremenitve mišic.
 Topla kopel z Epsom soljo spodbuja občutek umirjenosti in je idealna za konce napornih dni.
 
-🌿**Nežna peneča formula**
+🌿 **Nežna peneča formula**
+
 Soda bikarbona in citronska kislina ob stiku z vodo ustvarita prijeten šumeč učinek, ki sprosti
 aromatične in negovalne sestavine ter kožo nežno očisti in osveži.
 
-🌿**Svilnato mehka nega kože**
+🌿 **Svilnato mehka nega kože**
+
 Škrob poskrbi za prijeten, svilnat občutek na koži, medtem ko kombinacija
 olivnega olja, karitejevega masla in kokosovega olja globinsko nahrani, zmehča ter zaščiti
 kožo. Rezultat je mehka, prožna in negovana koža po vsakem kopanju.
 
-🌿**Aromaterapevtska mešanica za ženski občutek ravnovesja**
+🌿 **Aromaterapevtska mešanica za ženski občutek ravnovesja**
+
 Ta edinstvena trojna kombinacija eteričnih olj je oblikovana za umiritev, harmonijo in toplino.
 Skupaj tvorijo čudovito žensko aromatično sinergijo, ki je popolna za večer, čas zase ali
 trenutke, ko potrebujete dodatno nežnost.

@@ -11,16 +11,14 @@
     overflow: hidden;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    /* color: #f69fcf; */
-    color: #f03db4;
-    /* color: #e812a0; */
-}
+    color: #8faf9a;
+} */
 
 /* The progress container (grey background) */
 .progress-container {
@@ -30,14 +28,15 @@ h6 {
     right: 0;
     height: 5px;
     width: 100%;
-    background: #fbcbeb;
+    background: #719a7f;
     z-index: 1050;
 }
 
 /* The progress bar (scroll indicator) */
 .top-scroll-progress-bar {
     height: 5px;
-    background: #bc9c22;
+    /* background: #bc9c22; */
+    background: #c2a878;
     width: 0%;
     transition: width 0.1s linear;
 }
