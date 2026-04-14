@@ -12,7 +12,7 @@ priceBefore: ""
 showPrice: false
 
 images:
-    - image: "images/products/kopalna-kroglica-women-1.png"
+    - image: "images/products/kopalna-kroglica-women-1/kopalna-kroglica-women-1.png"
     # - image: "images/products/kopalna-kroglica-women-1.png"
     # - image: "images/products/kopalna-kroglica-women-1.png"
 

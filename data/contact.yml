@@ -3,16 +3,18 @@ contact:
   enable: true
   # office
   office:
-    title: "Osrednja pisarna & laboratorij"
+    title: "Opis podjetja"
     content:
-      "Naša osrednja pisarna in laboratorij sta srce našega ustvarjanja. Tukaj razvijamo in
-      ročno izdelujemo naravne izdelke za nego telesa – trda mila, kopalne kroglice, šampone
-      in druge kozmetične izdelke. Vse nastaja v majhnem domačem laboratoriju, kjer združujemo
-      znanje, naravne sestavine in ljubezen do trajnostne proizvodnje."
+      "**Jeras & Co. d.n.o.** je majhno družinsko podjetje, ustanovljeno leta 2025, specializirano
+      za razvoj in izdelavo naravne kozmetike ter naravnih izdelkov iz zelišč.<br><br>Pod lastno
+      blagovno znamko **ZoLi** ustvarjamo izdelke, ki temeljijo na skrbno izbranih naravnih
+      sestavinah, znanju o zeliščih in spoštovanju do narave. Naše poslanstvo je ponuditi
+      naravne, kakovostne, nežne in učinkovite izdelke za vsakodnevno nego."
+
     # other information comes from "config.toml"
 
-  # opennig hour
-  opennigHour:
+  # Opening hour.
+  openingHour:
     enable: true
     title: "Odpiralni čas"
     dayTimeList:
@@ -26,4 +28,4 @@ contact:
 
 ####################### google map ########################
 map:
-  enable: true
+  enable: false

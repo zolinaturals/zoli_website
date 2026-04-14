@@ -21,6 +21,23 @@ banner:
 ########################## About ##############################
 about:
   enable: true
+  title: "Ljubezen, ki je zrasla iz znanosti"
+  content:
+    "ZoLi se je rodila iz ljubezni. Do naravnega, do čistosti in do znanosti, ki stoji za
+    vsakodnevno nego.<br>
+    Za ZoLi stojiva:
+    <ul>
+    <li>Barbara, magistrica kemijskega inženirstva, in</li>
+    <li>Gorazd, doktor biokemije,</li>
+    </ul>
+    ki sva svoje življenje posvetila razumevanju molekul — tistih drobnih delcev, iz katerih
+    nastajata lepota in zdravje. Med delom v velikih farmacevtskih podjetjih sva spoznala moč
+    vrhunske formulacije, a tudi njene meje. Tako se je rodila želja po nečem bolj pristnem –
+    po kozmetiki, ki ne skriva narave za bleščečimi embalažami, temveč jo spoštuje in oživi."
+  image: "images/stojnica-1.jpg"
+
+about2:
+  enable: true
   title: "Od laboratorija do domače kopalnice"
   content:
     "Ona skrbi, da vsak izdelek ne navduši le s svojo teksturo in vonjem, temveč tudi z
@@ -86,12 +103,20 @@ advantage:
   enable: true
   title: "Prednosti uporabe naših produktov"
   subtitle:
+    "Naši izdelki združujejo moč narave, ročno izdelavo in zavesten trenutek nege –
+    za telo, ki resnično čuti razliko."
   image: "images/advantage.png"
   advantageList:
     # advantage list loop
-    - listItem: "Ker niso le domači. So doktorirani."
-    - listItem: "Ker niso le naravni. So znanstveno dovršeni."
-    - listItem: "Ker niso le lepi. So resnični."
+    # - listItem: "Ker niso le domači. So doktorirani."
+    # - listItem: "Ker niso le naravni. So znanstveno dovršeni."
+    # - listItem: "Ker niso le lepi. So resnični."
+    - listItem: "100% naravne in skrbno izbrane sestavine"
+    - listItem: "Ročno izdelano z občutkom za kakovost"
+    - listItem: "Uravnotežena in učinkovita nega primerna za vso družino"
+    - listItem: "Naravna aromaterapija za telo in um"
+    - listItem: "Ritual, ne le izdelek – vsakodnevni mali wellness trenutek"
+    - listItem: "Čiste formulacije, prijazne tudi občutljivi koži"
 
 ######################## Promo Video ##########################
 video:
