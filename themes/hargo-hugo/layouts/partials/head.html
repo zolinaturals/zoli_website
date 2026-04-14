@@ -15,7 +15,7 @@
 
   {{ "<!-- Plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
+  <link rel="stylesheet" href="{{ .link | relURL }}">
   {{ end }}
 
   {{ with site.Params.snipcartApiKey }}
@@ -35,7 +35,7 @@
   resources.Minify | resources.Fingerprint }} */}}
   {{/*
   <link rel="stylesheet" , href="{{ " css/custom.css" | relURL }}" /> */}}
-  <link rel="stylesheet" , href="/zoli_website/css/custom.css" />
+  <link rel="stylesheet" , href="/css/custom.css" />
 
 
   {{ "<!-- Favicon -->" | safeHTML }}
