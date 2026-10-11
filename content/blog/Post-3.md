@@ -55,6 +55,6 @@ V prihodnjih mesecih bodo partnerji nadaljevali razvoj novih naravnih izdelkov, 
 
 Projekt Moč narave dokazuje, da lahko sodelovanje med podjetništvom, čebelarstvom in lokalnim okoljem prispeva k razvoju kakovostnih lokalnih izdelkov, večji ozaveščenosti o pomenu narave ter ustvarjanju novih razvojnih priložnosti na območju LAS Srce Slovenije.
 
-# Projekt Moč narave je sofinanciran iz Evropskega sklada za regionalni razvoj (ESRR) v okviru izvajanja pristopa CLLD in Strategije lokalnega razvoja LAS Srce Slovenije. #
+Projekt Moč narave je sofinanciran iz Evropskega sklada za regionalni razvoj (ESRR) v okviru izvajanja pristopa CLLD in Strategije lokalnega razvoja LAS Srce Slovenije.
 
 ![EU financing image](images/blog/Delavnica_1a.jpg)
