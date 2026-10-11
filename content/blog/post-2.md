@@ -3,8 +3,8 @@ title: "Delavnica Zdravilni pleveli v praksi"
 date: 2026-05-28T12:00:00+06:00
 draft: false
 description : "this is a meta description"
-# image: "images/blog/post-2/ Delavnica_1a.jpg"
-image: "images/blog/post-2/ Delavnica_1b.jpg"
+# image: "images/blog/Delavnica_1a.jpg"
+image: "images/blog/Delavnica_1b.jpg"
 author: "Gorazd Hribar"
 ---
 
