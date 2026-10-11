@@ -22,6 +22,6 @@ Hvala vsem udeležencem za prijetno druženje, dobro voljo in zanimanje za znanj
 
 Projekt Moč narave je sofinanciran v okviru LAS projektov.
 
-![EU financing image](images/blog/post-2/Delavnica_1a.jpg)
+![EU financing image](images/blog/Delavnica_1a.jpg)
 
-![EU financing image](images/blog/post-2/Delavnica_1b.jpg)
+![EU financing image](images/blog/Delavnica_1b.jpg)
