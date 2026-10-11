@@ -54,4 +54,4 @@ Projekt prinaša pomembne družbene in gospodarske učinke:
 Partnerja bosta po koncu financiranja nadaljevala z delovanjem, saj projekt temelji na
 vzpostavitvi trajnostnih procesov, lastnih produktov in prodajne verige.
 
-![Moc narave banner](/images/project/project_banner.png)
+![Moc narave banner](/images/project/project_banner1.png)
